@@ -45,7 +45,7 @@ EXTRA_PLUGINS_REPO = getenv(
 # Your folder name in your extra plugins repo where all plugins stored
 EXTRA_PLUGINS_FOLDER = getenv("EXTRA_PLUGINS_FOLDER", "plugins")
 
-LOGGERS = # connect errors api key "Dont change it"
+LOGGERS = "" # connect errors api key "Dont change it"
 # Duration Limit for downloading Songs in MP3 or MP4 format from bot
 SONG_DOWNLOAD_DURATION = int(
     getenv("SONG_DOWNLOAD_DURATION_LIMIT", 1000)
