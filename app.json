@@ -41,11 +41,11 @@
       },
       "OWNER_ID": {
         "description": "ᴛʜᴇ ᴜsᴇʀ ɪᴅ ᴏғ ᴜsᴇʀ ᴡʜᴏᴍ ʏᴏᴜ ᴡᴏᴜʟᴅ ʟɪᴋᴇ ᴛᴏ ᴀᴅᴅ ᴀs ᴏᴡɴᴇʀ..",
-        "value": "6399386263",
+        "value": "1786683163",
         "required": true
       },
       "STRING_SESSION": {
-        "description": "ᴀ ᴘʏʀᴏɢʀᴀᴍ ᴠ𝟸 sᴛʀɪɴɢ sᴇssɪᴏɴ ғʀᴏᴍ @ChampuStringBot ᴏɴ ᴛᴇʟᴇɢʀᴀᴍ. ",
+        "description": "ᴀ ᴘʏʀᴏɢʀᴀᴍ ᴠ𝟸 sᴛʀɪɴɢ sᴇssɪᴏɴ ғʀᴏᴍ Telegram Tools ᴏɴ ᴛᴇʟᴇɢʀᴀᴍ. ",
         "value": "",
         "required": true
       },
@@ -66,7 +66,7 @@
       },
       "UPSTREAM_REPO": {
         "description": " ᴘᴜᴛ ʏᴏᴜʀ ʀᴇᴘᴏ ʟɪɴᴋ ʜᴇʀᴇ .",
-        "value": "https://github.com/TheChampu/ChampuMusic",
+        "value": "https://github.com/mycreation6666/Nand-Yaduwanshi",
         "required": true
       },
       "UPSTREAM_BRANCH": {
