@@ -40,7 +40,7 @@ EXTRA_PLUGINS = getenv(
 # Fill here the external plugins repo where plugins that you want to load
 EXTRA_PLUGINS_REPO = getenv(
     "EXTRA_PLUGINS_REPO",
-    "https://github.com/Highpower143/Extra-Plugin",
+    "https://github.com/Nand9570/Extra-Plugin",
 )
 
 # Your folder name in your extra plugins repo where all plugins stored
@@ -68,7 +68,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/Nand72820/M4Music",
+    "https://github.com/NAND7095/M4Music",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
