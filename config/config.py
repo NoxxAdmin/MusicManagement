@@ -68,7 +68,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/NAND7095/Music-sLove",
+    "https://github.com/MesteriousPrivate/BigRepoChampu",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
@@ -77,7 +77,7 @@ GIT_TOKEN = getenv(
 
 # Only  Links formats are  accepted for this Var value.
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/Creativeydv"
+    "SUPPORT_CHANNEL", "https://t.me/NoxxNetwork"
 )  # Example:- https://t.me/akaChampu
 SUPPORT_GROUP = getenv(
     "SUPPORT_GROUP", "https://t.me/NYCreation_Chatzone"
@@ -179,7 +179,7 @@ autoclean = []
 
 START_IMG_URL = getenv(
     "START_IMG_URL",
-    "https://envs.sh/Oap.jpg",
+    "https://envs.sh/6RJ.jpg",
 )
 
 PING_IMG_URL = getenv(
