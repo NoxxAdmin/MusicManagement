@@ -19,7 +19,7 @@ BOT_TOKEN = getenv("BOT_TOKEN")
 BOT_USERNAME = getenv("BOT_USERNAME" , "Music4vcBot")
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+MONGO_DB_URI = getenv("MONGO_DB_URI")
 
 CLEANMODE_DELETE_MINS = int(
     getenv("CLEANMODE_MINS", 5)
@@ -53,7 +53,7 @@ SONG_DOWNLOAD_DURATION = int(
 )  # Remember to give value in Minutes
 
 # You'll need a Private Group ID for this.
-LOGGER_ID = int(getenv("LOGGER_ID", None))
+LOGGER_ID = int(getenv("LOGGER_ID"))
 
 # Your User ID.
 OWNER_ID = list(
@@ -72,7 +72,7 @@ UPSTREAM_REPO = getenv(
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
-    "GIT_TOKEN", None
+    "GIT_TOKEN"
 )  # Fill this variable if your upstream repository is private
 
 # Only  Links formats are  accepted for this Var value.
@@ -143,21 +143,11 @@ SET_CMDS = getenv("SET_CMDS", False)
 
 
 # You'll need a Pyrogram String Session for these vars. Generate String from our session generator bot @ChampuStringBot
-STRING1 = getenv("STRING_SESSION", None)
+STRING1 = getenv("STRING_SESSION")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
 STRING5 = getenv("STRING_SESSION5", None)
-
-
-
-#   ░█████╗░██╗░░██╗░█████╗░███╗░░░███╗██████╗░██╗░░░██╗
-#   ██╔══██╗██║░░██║██╔══██╗████╗░████║██╔══██╗██║░░░██║
-#   ██║░░╚═╝███████║███████║██╔████╔██║██████╔╝██║░░░██║
-#   ██║░░██╗██╔══██║██╔══██║██║╚██╔╝██║██╔═══╝░██║░░░██║
-#   ╚█████╔╝██║░░██║██║░░██║██║░╚═╝░██║██║░░░░░╚██████╔╝
-#   ░╚════╝░╚═╝░░╚═╝╚═╝░░╚═╝╚═╝░░░░░╚═╝╚═╝░░░░░░╚═════╝░     
-
 
 
 ### DONT TOUCH or EDIT codes after this line
