@@ -67,7 +67,7 @@ def paginate_modules(page_n, module_dict, prefix, chat=None, close: bool = False
         pairs = pairs[modulo_page * COLUMN_SIZE : COLUMN_SIZE * (modulo_page + 1)] + [
             (
                 EqInlineKeyboardButton(
-                    "❮",
+                    "❮⍟",
                     callback_data="{}_prev({})".format(
                         prefix,
                         modulo_page - 1 if modulo_page > 0 else max_num_pages - 1,
@@ -78,7 +78,7 @@ def paginate_modules(page_n, module_dict, prefix, chat=None, close: bool = False
                     callback_data="close" if close else "feature",
                 ),
                 EqInlineKeyboardButton(
-                    "❯",
+                    "⍟❯",
                     callback_data="{}_next({})".format(prefix, modulo_page + 1),
                 ),
             )
@@ -767,7 +767,7 @@ async def back_button_callback(client: Client, callback_query: CallbackQuery):
             InlineKeyboardButton(text="🎭ᴏᴡɴᴇʀ🎭", user_id=config.OWNER_ID[0]),
             InlineKeyboardButton(
                 text="🌱ɢɪᴛʜᴜʙ🌱",
-                url="https://github.com/mycreation6666/Nand-Yaduwanshi",
+                url="https://github.com/Shruti/Bots",
             ),
         ],
         [
