@@ -1,9 +1,7 @@
 from pyrogram.types import InlineKeyboardButton
-
 import config
 from config import SUPPORT_GROUP
 from ChampuMusic import app
-
 
 def start_pannel(_):
     buttons = [
@@ -15,7 +13,6 @@ def start_pannel(_):
         ],
     ]
     return buttons
-
 
 def private_panel(_):
     buttons = [
@@ -36,7 +33,6 @@ def private_panel(_):
         ],
     ]
     return buttons
-
 
 def alive_panel(_):
     buttons = [
@@ -62,5 +58,11 @@ def music_start_panel(_):
             InlineKeyboardButton(text="🍷sᴜᴘᴘᴏʀᴛ🍷", callback_data="support"),
         ],
         [InlineKeyboardButton(text="🌲ғᴇᴀᴛᴜʀᴇ🌲", callback_data="feature")],
+        [
+            InlineKeyboardButton(
+                text="🎲 ᴛʀʏ ᴡʜɪsᴘᴇʀ ᴍᴇssᴀɢᴇ 🎲",
+                switch_inline_query="@ShrutiMusicBot "
+            )
+        ],
     ]
     return buttons
