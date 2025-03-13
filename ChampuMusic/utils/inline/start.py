@@ -61,7 +61,7 @@ def music_start_panel(_):
         [
             InlineKeyboardButton(
                 text="🎲 ᴛʀʏ ᴡʜɪsᴘᴇʀ ᴍᴇssᴀɢᴇ 🎲",
-                switch_inline_query="@"
+                switch_inline_query=""
             )
         ],
     ]
